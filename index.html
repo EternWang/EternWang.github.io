@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Hongyu Wang studies how people verify AI-generated work and how language and vision models reason about real cases. Publications, research experience, and CV.">
+  <meta property="og:title" content="Hongyu Wang">
+  <meta property="og:description" content="Research in AI evaluation, multimodal reasoning, and human oversight.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eternwang.github.io/">
+  <link rel="canonical" href="https://eternwang.github.io/">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Hongyu Wang | Research</title>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="frame mast-inner">
+      <a class="wordmark" href="#top" aria-label="Hongyu Wang, back to top">H. Wang</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a class="cv-link" href="./assets/Hongyu-Wang-CV.pdf">CV <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="frame" id="main">
+    <section class="intro" aria-labelledby="name">
+      <div class="intro-copy">
+        <h1 id="name">Hongyu Wang</h1>
+        <p class="intro-lead">I study how people check AI-generated work and how well models reason beyond the test they were given.</p>
+        <p class="intro-bio">My background is in physics at UC Santa Barbara. My research brings together language model evaluation, first-person video, and human oversight of AI.</p>
+        <div class="contact-links">
+          <a href="mailto:hongyu_wang@ucsb.edu">hongyu_wang@ucsb.edu</a>
+          <a href="https://github.com/EternWang">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="finding">
+        <div class="figure-top"><span>Featured result</span><a href="https://eternwang.github.io/LegalScope/results.html">LegalScope <span aria-hidden="true">↗</span></a></div>
+        <figcaption>How closely do automated scores agree with human ratings?</figcaption>
+        <div class="comparison">
+          <div class="metric"><div class="metric-label"><span>Exam answers</span><b>0.910</b></div><div class="track" aria-hidden="true"><i style="--r: .910"></i></div></div>
+          <div class="metric"><div class="metric-label"><span>Case answers</span><b>0.312</b></div><div class="track" aria-hidden="true"><i style="--r: .312"></i></div></div>
+          <div class="ticks" aria-hidden="true"><span>−1</span><span>0</span><span>+1</span></div>
+        </div>
+        <p class="axis-note">Pearson correlation for individual answers</p>
+      </figure>
+    </section>
+
+    <section id="research" class="section research" aria-labelledby="work-title">
+      <header class="section-heading"><h2 id="work-title">Selected research</h2></header>
+      <article class="paper">
+        <div class="paper-meta"><span class="venue">EACL 2027</span><span>Main conference</span><span>Accepted</span></div>
+        <div class="paper-body">
+          <h3><a href="https://eternwang.github.io/LegalScope/">LegalScope: Measuring Exam-to-Case Transfer in LLM Legal Reasoning</a></h3>
+          <p class="authors"><strong>Hongyu Wang</strong>, Rilyn R. Han, Yilun Zhao, Xuandong Zhao, and Arman Cohan</p>
+          <p>We evaluated 28 model configurations on 861 legal-exam questions and 276 lawyer-reviewed case prompts. For each of 138 legal issues, we paired opposing stances on the same facts to test whether a model could argue either side.</p>
+          <div class="resource-links"><a href="https://eternwang.github.io/LegalScope/">Project</a><a href="https://openreview.net/forum?id=BNx62Wx1ej">Workshop paper</a><a href="https://github.com/EternWang/LegalScope">Code</a><a href="https://huggingface.co/datasets/Hongyu801/LegalScope">Dataset</a></div>
+        </div>
+      </article>
+      <article class="paper">
+        <div class="paper-meta"><span class="venue">arXiv 2026</span><span>Preprint</span></div>
+        <div class="paper-body">
+          <h3><a href="https://arxiv.org/abs/2610.29673">Characterizing Oblivious Common-Reward Multi-Player Bandits: Universal Stationarity, Coordination Traps, and Certified Global Rates</a></h3>
+          <p class="authors">Mingxiao Li, Wenhai Lai, and <strong>Hongyu Wang</strong></p>
+          <p>When several learners choose actions independently and see only a shared reward, which guarantees still hold? Our analysis identifies coordination traps and conditions under which the learners can recover global performance guarantees.</p>
+          <div class="resource-links"><a href="https://arxiv.org/abs/2610.29673">Preprint</a><a href="https://arxiv.org/pdf/2610.29673">PDF</a></div>
+        </div>
+      </article>
+
+      <div class="ongoing">
+        <h3>Work in progress</h3>
+        <div class="ongoing-item"><h4>First-person video reasoning</h4><p>I build evaluations that ask whether an object changes a pedestrian’s ability to pass. A matched pair of questions lets us compare noticing motion with understanding what that motion means for the wearer.</p></div>
+        <div class="ongoing-item"><h4>How people verify AI-assisted research</h4><p>I use interviews, think-aloud studies, and experiments to examine what people check before relying on an AI result, and whether the person asked to verify it has the evidence to do so.</p></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience" aria-labelledby="exp-title">
+      <header class="section-heading"><h2 id="exp-title">Experience</h2></header>
+      <dl class="timeline">
+        <div><dt><span>Aug 2026–present</span>NYU Shanghai BiAlign Lab</dt><dd><strong>Research collaborator</strong><p>With Hua Shen, I design studies of how researchers verify AI-assisted work and how creators judge AI-assisted revisions.</p></dd></div>
+        <div><dt><span>Jul 2026–present</span>UCSB NLP Group</dt><dd><strong>Research assistant</strong><p>With Chuhan Li, advised by Xuandong Zhao and Xin (Eric) Wang. I design and score tasks for understanding obstacles in first-person video.</p></dd></div>
+        <div><dt><span>Nov 2025–present</span>Yale NLP Lab</dt><dd><strong>Research assistant</strong><p>With Yilun Zhao, advised by Arman Cohan. My work includes LegalScope and studies of how people check model outputs against source evidence.</p></dd></div>
+        <div><dt><span>Jun 2025–present</span>Dalian University of Technology</dt><dd><strong>Teaching and research</strong><p>With Wenhai Lai, I develop graduate problem sets in statistical learning and implement common-reward bandit experiments in Python.</p></dd></div>
+      </dl>
+    </section>
+
+    <section id="education" class="section background" aria-label="Education and selected code">
+      <div>
+        <header class="section-heading"><h2>Education</h2></header>
+        <div class="education-item"><span class="date">Jul 2026–present</span><h3>University of Colorado Boulder</h3><p>Non-degree graduate coursework in artificial intelligence, including discrete-time Markov chains and Monte Carlo methods.</p></div>
+        <div class="education-item"><span class="date">Sep 2022–Mar 2026</span><h3>University of California, Santa Barbara</h3><p>Bachelor of Arts in Physics.</p></div>
+      </div>
+      <div class="code-notes">
+        <header class="section-heading"><h2>Physics code</h2></header>
+        <a class="code-item" href="https://github.com/EternWang/cavendish-torsion-balance"><div><h3>Cavendish torsion balance</h3><p>Track laser motion and estimate displacement with a systematic-error analysis.</p></div><span aria-hidden="true">↗</span></a>
+        <a class="code-item" href="https://github.com/EternWang/fourier-optics-lab"><div><h3>Fourier optics</h3><p>Compare regression methods and propagate uncertainty through an optical measurement.</p></div><span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="frame footer-inner"><span>Hongyu Wang</span><a href="mailto:hongyu_wang@ucsb.edu">Email</a><a href="https://github.com/EternWang">GitHub</a><a href="./assets/Hongyu-Wang-CV.pdf">Download CV</a><a class="back" href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
